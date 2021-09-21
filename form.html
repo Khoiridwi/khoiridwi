@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+header{
+  background-color: #8FBC8F;
+  text-align: center;
+} 
+article{
+  background-color: #FFFAF0;
+  height:300px;
+}
+footer{
+  background-color: #ADFF2F;
+  text-align: center;
+}  
+</style>
+</head>
+<body>
+<header>
+<h1> PEMROGRAMAN PERANGKAT </h1>
+<ul>
+  <li><a class="active" href="new 1.html">Home</a></li>
+  <li><a href="form.html">Daftar</a></li>
+  <li><a href="tabel.html">Presensi</a></li>
+  <li><a href="#Login.html">Login</a></li>
+</ul>
+</header>
+<section>
+ 
+</section>
+</head>
+<body>
+ <form>
+ 	<h2> Form Pendaftaran Anggota </h2>
+  <label> Nama Depan </label>
+  <input type="text">
+  
+  <label> Nama Belakang </label>
+  <input type="text"><br> <br>
+  
+<label> Tempat Lahir </label>
+<input list="kotalahir">
+  <datalist id="kotalahir">
+  <option value="Kab.Madiun">
+  <option value="Kab.Ngawi">
+  <option value="Kab.Magetan">
+  <option value="Kab.Ponorogo">
+  <option value="Kab.Nganjuk">
+  </datalist> <br> <br>
+ 
+  <label> Tanggal Lahir </label>
+  <input type="date"><br> <br>
+
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"> <br> <br>
+
+
+<label> Jenis Kelamin </label>
+<input type="radio" id="Laki-laki">
+<label>Laki-laki </label>
+<label> Perempuan </label>
+<input type="radio" id="Perempuan">
+<label>Laki-laki </label> <br> <br>
+
+<label> Hobby </label>
+<input type="checkbox" id="Olahraga" value="Olahraga">
+<label> Olahraga </label>
+<input type="checkbox" id="Berenang" value="Berenang">
+<label> Berenang </label>
+<input type="checkbox" id="Membaca" value="Membaca">
+<label> Membaca </label><br> <br>
+
+<label> Alamat </label>
+<textarea name="Alamat" rows="3"> </textarea>
+<br>
+<br>
+<input type="Submit" value=" Simpan ">
+<input type="Reset">
+
+<footer>
+  <p>Created Khoiri <br>Kelas XII RPL 2 </p>
+</footer>
+
+
+ </form>
+</body>
+</html>
